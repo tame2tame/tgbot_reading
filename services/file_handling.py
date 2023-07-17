@@ -35,6 +35,4 @@ def prepare_book(path: str) -> None:
 
 
 
-# prepare_book(os.path.join(os.getcwd(), BOOK_PATH))
-
-print(prepare_book(BOOK_PATH))
+prepare_book(os.path.join(os.getcwd(), BOOK_PATH))
